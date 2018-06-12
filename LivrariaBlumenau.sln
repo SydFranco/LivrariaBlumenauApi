@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Service", "0_Service", "{2B57BE18-5392-42AA-9AA3-9B1927891F18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Application", "3_Application", "{A71986EF-2554-445A-A3E1-9575A6E5D685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Domain", "1_Domain", "{E9F152C3-A29A-488E-BE9D-DFFE8C0CAAF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Infrainstructure", "2_Infrainstructure", "{13F88BC5-1052-419E-A38C-F537E2D46795}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1_Data", "5.1_Data", "{6CBD5933-5A8E-40CA-AD43-91B80EF1B238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2_CrossCutting", "5.2_CrossCutting", "{EFBB9EFF-7B36-4E3F-8798-250AF33B7477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaBlumenau.Domain", "LivrariaBlumenau.Domain\LivrariaBlumenau.Domain.csproj", "{E7C33876-AAC8-4B44-B710-1383CBA8A360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaBlumenau.Infrastructure.Data", "LivrariaBlumenau.Infrastructure.Data\LivrariaBlumenau.Infrastructure.Data.csproj", "{E651F7D6-C669-4DD6-B0BE-500EE07E2E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaBlumenau.Application", "LivrariaBlumenau.Application\LivrariaBlumenau.Application.csproj", "{4F87D402-A451-4153-9E18-BB64EE1127AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaBlumenau.App.WebApi", "LivrariaBlumenau.App.WebApi\LivrariaBlumenau.App.WebApi.csproj", "{21477269-A29B-4290-9E18-BB946378C4EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Presentation", "4_Presentation", "{677A8E98-316C-48DA-9ECF-07BCB185112A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaBlumenau.Presentation.MVC", "LivrariaBlumenau.Presentation.MVC\LivrariaBlumenau.Presentation.MVC.csproj", "{B3EC855E-8583-4902-A39F-8874A7DD4FD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7C33876-AAC8-4B44-B710-1383CBA8A360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C33876-AAC8-4B44-B710-1383CBA8A360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C33876-AAC8-4B44-B710-1383CBA8A360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C33876-AAC8-4B44-B710-1383CBA8A360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E651F7D6-C669-4DD6-B0BE-500EE07E2E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E651F7D6-C669-4DD6-B0BE-500EE07E2E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E651F7D6-C669-4DD6-B0BE-500EE07E2E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E651F7D6-C669-4DD6-B0BE-500EE07E2E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F87D402-A451-4153-9E18-BB64EE1127AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F87D402-A451-4153-9E18-BB64EE1127AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F87D402-A451-4153-9E18-BB64EE1127AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F87D402-A451-4153-9E18-BB64EE1127AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21477269-A29B-4290-9E18-BB946378C4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21477269-A29B-4290-9E18-BB946378C4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21477269-A29B-4290-9E18-BB946378C4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21477269-A29B-4290-9E18-BB946378C4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EC855E-8583-4902-A39F-8874A7DD4FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EC855E-8583-4902-A39F-8874A7DD4FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EC855E-8583-4902-A39F-8874A7DD4FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EC855E-8583-4902-A39F-8874A7DD4FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CBD5933-5A8E-40CA-AD43-91B80EF1B238} = {13F88BC5-1052-419E-A38C-F537E2D46795}
+		{EFBB9EFF-7B36-4E3F-8798-250AF33B7477} = {13F88BC5-1052-419E-A38C-F537E2D46795}
+		{E7C33876-AAC8-4B44-B710-1383CBA8A360} = {E9F152C3-A29A-488E-BE9D-DFFE8C0CAAF2}
+		{E651F7D6-C669-4DD6-B0BE-500EE07E2E6F} = {6CBD5933-5A8E-40CA-AD43-91B80EF1B238}
+		{4F87D402-A451-4153-9E18-BB64EE1127AD} = {A71986EF-2554-445A-A3E1-9575A6E5D685}
+		{21477269-A29B-4290-9E18-BB946378C4EF} = {A71986EF-2554-445A-A3E1-9575A6E5D685}
+		{B3EC855E-8583-4902-A39F-8874A7DD4FD4} = {677A8E98-316C-48DA-9ECF-07BCB185112A}
+	EndGlobalSection
+EndGlobal
