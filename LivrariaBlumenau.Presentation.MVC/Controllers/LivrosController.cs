@@ -17,6 +17,7 @@ namespace LivrariaBlumenau.Presentation.MVC.Controllers
 		public LivrosController(ILivroAppService livroApp)
 		{
 			_livroApp = livroApp;
+			//teste
 		}
 
 		// GET: Livros
